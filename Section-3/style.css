@@ -1,0 +1,53 @@
+.form {
+  padding: 15px;
+}
+
+.form__control {
+  margin-bottom: 20px;
+}
+
+.form__control label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form__control input {
+  display: inline-block;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.form__control:not(:nth-child(4)) input {
+  height: 25px;
+}
+
+.form__group-select {
+  width: 100%;
+  height: 35px;
+}
+
+.form__group-radio {
+  display: inline-block;
+}
+
+.form__group-radio input {
+  width: auto;
+}
+
+.form__group-radio .form__sex {
+  display: inline;
+}
+
+.form__button {
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  background-color: #000;
+  border: 0;
+  transition: all 200ms ease-in;
+}
+
+.form__button:hover {
+  background-color: #e6ae48;
+}
